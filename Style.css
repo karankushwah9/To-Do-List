@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.strike{
+    text-decoration: line-through;
+}
+#imgback{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+.inputBox{
+    position: relative;
+    top: 20px;
+    text-align: center;
+}
+.inputBar{
+    height: 50px;
+    width: 30%;
+    border: none;
+    font-size: medium;
+    font-weight: bold;
+    padding-left: 4px;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
+    background: url(https://wallpaperset.com/w/full/d/d/8/66084.jpg);
+    background-size: cover ;
+}
+.addBtn{
+    height: 50px;
+    width: 80px;
+    border: none;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
+    background-color: rgb(186, 226, 227);
+}
+.mainContainer{
+    width: 35.5%;
+    margin-top: 10px;
+    margin-left: 32.3%;
+    /* border: 2px solid red; */
+}
+.container{    
+    height: 45px;  
+    display: flex;
+    margin-top: 2px;
+    /* border: 2px solid green; */
+    justify-content: space-between;
+}
+.taskoutput{
+    color: white;
+    display: flex;
+    font-size: 25px;
+    font-style: Impallari Type;
+}
+.buttons{
+    height: 100%;
+    display: flex;
+    /* background-color: aqua; */
+}
+.done{
+    width: 65px;
+    height: 90%;
+    border: none;
+    font-size: medium;
+    border-radius: 5px;
+    margin-right: 0.2rem;
+}
+.delete{
+    width: 65px;
+    height: 90%;
+    border: none;
+    font-size: medium;
+    border-radius: 5px;
+}
